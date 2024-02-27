@@ -90,7 +90,7 @@ const Burger = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="number" value={burgerItem.id} onChange={handleId} />
+        <input type="number" value={burgerItem.id} onChange={handleId} placeholder="Add Unique ID" />
         <label htmlFor={burgerItem.cheese}> cheese: </label>
         <input
           type="number"
